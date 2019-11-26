@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "lib": ["dom", "esnext"],
+    "moduleResolution": "node",
+    "jsx": "react",
+    "target": "es5", // TSはECMAScript 5に変換
+    "module": "es2015", // TSのモジュールはES Modulesとして出力
+    "typeRoots": ["src/@types"],
+    "allowSyntheticDefaultImports": true
+  }
+}
